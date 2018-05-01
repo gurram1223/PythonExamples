@@ -28,6 +28,53 @@ colors={'crimson':0xdc143c,'corol':0xff7f50}
 for color in colors:
     print(color,colors[color])#crimson 14423100 corol 16744272
     
+print("news"+"paper")
+
+colors=';'.join(["red","blue","green"])
+print(colors)
+print(colors.split(';'))
+
+print("pavankumargurram".partition("kumar"))
+
+departure,seperator,arrival="London:Edinburg".partition(':')
+print(departure,arrival,seperator)
+
+origin,_,destination="seattle-bostin".partition('-')
+print(origin,destination,_)
+
+print("the age of {0} is {1}.{0}'s birthday is on {2}".format('fred',23,"21 oct 96"))
+
+print("current position {latitude} {longitude}".format(latitude="60N",longitude
+                                                       ="5E"))
+pos=(54.2,23.1,34.4)
+print("The position x={pos[0]} y={pos[1]} z={pos[2]}".format(pos=pos))
+
+import math
+print("Math constants:pi={m.pi},e={m.e}".format(m=math))
+print("Math constants:pi={m.pi:.3f},e={m.e:.3f}".format(m=math))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
