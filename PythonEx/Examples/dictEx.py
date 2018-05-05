@@ -10,6 +10,7 @@ g=dict(d='delta')
 p.update(g)
 print(p)
 
+
 g=dict(p)
 print(g)
 
